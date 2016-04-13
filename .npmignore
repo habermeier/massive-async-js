@@ -1,9 +1,5 @@
 node_modules/
-*.d.ts
 *.log
 *.tgz
-
 .idea
 
-!index.d.ts
-!index.ref.d.ts
