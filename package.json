@@ -1,6 +1,6 @@
 {
   "name": "massive-async",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple relational data access tool for NodeJS wrapping MassiveJS into async functions via Typescript",
   "main": "dist/massive-async.js",
   "scripts": {
