@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"module": "CommonJS",
+		"target": "ES6",
+		"noImplicitAny": true,
+		"outDir": "dist"
+	},
+	"files": [
+		"src/massive-async.ts"
+	]
+}

@@ -3,6 +3,14 @@ logs
 *.log
 npm-debug.log*
 
+.idea
+
+# typings
+*.d.ts
+
+# compressed tar balls
+*.tgz
+
 # Runtime data
 pids
 *.pid
@@ -22,6 +30,7 @@ coverage
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
+dist
 
 # Dependency directory
 node_modules

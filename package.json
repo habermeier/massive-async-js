@@ -1,0 +1,41 @@
+{
+  "name": "massive-async-js",
+  "version": "0.0.1",
+  "description": "A simple relational data access tool for NodeJS wrapping MassiveJS into async functions via Typescript",
+  "main": "dist/massive-async.js",
+  "scripts": {
+    "preinstall": "npm install autodts",
+    "postinstall": "autodts link",
+    "prepublish": "tsc && autodts generate",
+    "test": "echo \"Chill: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habermeier/massive-async-js.git"
+  },
+  "keywords": [
+    "postgres",
+    "pg",
+    "massive-js",
+    "async",
+    "typescript"
+  ],
+  "author": "Bernie Habermeier <bernie@wannago.com> (http://habermeier.org/bernie)",
+  "license": "BSD-3-Clause",
+  "typescript": {
+    "definition": "index.d.ts"
+  },
+  "bugs": {
+    "url": "https://github.com/habermeier/massive-async-js/issues"
+  },
+  "homepage": "https://github.com/habermeier/massive-async-js#readme",
+  "dependencies": {
+    "autodts": "^0.0.6",
+    "massive": "^2.2.0"
+  },
+  "devDependencies": {
+    "@lib/autodts-generator": "^0.0.2",
+    "autodts": "0.0.6",
+    "typescript": "^1.8.10"
+  }
+}
