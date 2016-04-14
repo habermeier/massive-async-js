@@ -1,4 +1,4 @@
-/// <reference path="../typings/typings.d.ts" />
+
 import massive from 'massive';
 
 export class TableAsync {
@@ -47,7 +47,7 @@ export class TableAsync {
 
 }
 
-export class MassiveAsync {
+export default class MassiveAsync {
 
     database: any;
 
